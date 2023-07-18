@@ -3,6 +3,7 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -22,7 +23,7 @@ body {
     background-color: rgba(255, 255, 255, 0.8);
     /* text-align: center; */
     padding: 20px;
-    font-size: 20px;
+    /* font-size: 20px; */
     height: 100vh;
   }
   
@@ -37,6 +38,30 @@ body {
     grid-column: 2 / span 3;
     grid-row: 1;
   }
+
+
+/* right Content */
+
+.right-conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/*-------------- navbar --------------*/
+.navbar, .nav-leftside, .nav-rightside {
+    display: flex;
+    flex-direction: row;
+}
+.navbar {
+    justify-content: space-between;
+    height: 50px;
+}
+
+
+
+
 
   /* table */
 
