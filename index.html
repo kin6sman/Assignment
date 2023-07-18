@@ -8,11 +8,41 @@
 <body>
     <div class="main-body grid-container">
         <div class="grid-item item1">
-            <div class="left-container sidebar">
-                <div class="menu">
-                    <h1>Infellion</h1>
+            <div class="left-container ">
+                <div class="header">
+                    <div class="menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="icon">
+                        <img src="./assets/Infollion.png" alt="icon" id="company-icon">
+                    </div>
                 </div>
-                <h3>Content Table</h3>
+                <div class="sidebar">
+                    <div class="sidebar-item">Manage
+                      <div class="submenu">
+                        <div class="sidebar-item">Moderate</div>
+                        <div class="sidebar-item">Tag</div>
+                        <div class="sidebar-item">Compliance</div>
+                        <div class="sidebar-item">Payments</div>
+                        <div class="sidebar-item">Advance Settings</div>
+                      </div>
+                    </div>
+                    <div class="sidebar-item">Menu 2
+                      <div class="submenu">
+                        <div class="sidebar-item">Submenu 1</div>
+                        <div class="sidebar-item">Submenu 2</div>
+                        <div class="sidebar-item">Submenu 3</div>
+                      </div>
+                    </div>
+                    <div class="sidebar-item">Menu 3
+                      <div class="submenu">
+                        <div class="sidebar-item">Submenu 1</div>
+                        <div class="sidebar-item">Submenu 2</div>
+                        <div class="sidebar-item">Submenu 3</div>
+                      </div>
+                    </div>
+                  </div>
+                
             </div>
         </div>
         <div class="grid-item item2">
@@ -20,10 +50,32 @@
                 <div class="navbar">
                     <div class="nav-leftside">
                         <h2>PE Expert Mapping</h2>
-                        <input type="text" placeholder="Search..">
+                        <div class="searchbar">
+                            <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                            <input type="text" placeholder="Search By Project Name, Clint Name">
+                        </div>
                     </div>
                     <div class="nav-rightside">
-                        <h2>PE Expert Mapping</h2>
+                        <div class="filter">
+                            <i class="fa-solid fa-circle" id="dot"></i>
+                            <div class="filter-icon">
+                                <img src="./assets/filter.png" alt="filter" id="filter">
+                            </div>
+                        </div>
+                        <div id="togglebar">
+                            <div class="grid-icon" >
+                                <img src="./assets/menu.png" />
+                            </div>
+                            <i class="fa-solid fa-list" id="menu-option"></i>
+                        </div>
+                        <div class="profile">
+                            <div class="profile-icon">
+                                <i class="fa-solid fa-user" style="color: #252B3B;"></i>
+                            </div>
+                            <p id="vijay">Vijay Sharma</p>
+
+                            <i class="fa-solid fa-caret-down" id="down-icon"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="body-container">
@@ -123,5 +175,9 @@
             </div>
         </div>
     </div>
+
+
+
+    <script src="https://kit.fontawesome.com/2424a776fe.js" crossorigin="anonymous"></script>
 </body>
 </html>

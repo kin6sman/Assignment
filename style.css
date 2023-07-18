@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat:wght@300;600&family=Playfair:wght@700&family=Poppins:wght@300;400&display=swap');
+
+
 /* default */
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #F5F4F4 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
 
@@ -13,14 +18,14 @@ body {
 .grid-container {
     display: grid;
     gap: 10px;
-    background-color: #2196F3;
+    /* background-color: #2196F3; */
     padding: 10px;
     grid-template-columns: 200px auto;
 
   }
 
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    /* background-color: rgba(255, 255, 255, 0.8); */
     /* text-align: center; */
     padding: 20px;
     /* font-size: 20px; */
@@ -31,6 +36,7 @@ body {
     
     grid-column: 1 ;
     grid-row: 1;
+    background-color: #fff;
   }
   
   .item2 {
@@ -38,6 +44,43 @@ body {
     grid-column: 2 / span 3;
     grid-row: 1;
   }
+
+
+/* left container ----------------- */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px
+}
+
+.header .menu{
+    height: 15.59px;
+    width: 22.41px;
+    color: #252B3B;
+}
+
+#company-icon {
+    height: 39px;
+    width: 105px;
+}
+
+.sidebar-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .submenu {
+    padding-left: 20px;
+    /* display: none; */
+  }
+
+
+
+
+
+
 
 
 /* right Content */
@@ -53,14 +96,166 @@ body {
 .navbar, .nav-leftside, .nav-rightside {
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    align-items: center;
 }
 .navbar {
     justify-content: space-between;
     height: 50px;
+
+}
+
+.nav-leftside h2{
+    font: normal normal 600 25px/33px Montserrat;
+    letter-spacing: 0px;
+    
+    text-align: left;
+    color: #252B3B;
+
+}
+
+.nav-leftside .searchbar {
+    height: 50px;
+    width: 600px;
+    margin-left: 100px;
+    border: 0px;
+    border-radius: 25px;
+    background-color: rgba(111, 105, 105, 0.07);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    /* opacity: 0.07; */
+
+}
+
+#search-icon {
+    width: 18px;
+    height: 18px;
+    color: #000000;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.nav-leftside  input {
+    height: 21px;
+    width: 300px;
+    color: #252B3B;
+    opacity: 1;
+    font-size: 16px;
+    font: normal normal 300 16px/21px Montserrat;
+    border: 0px;
+    background: none;
+}
+
+.filter {
+    height: 41px;
+    margin-right: 20px;
+    position: relative;
+}
+
+#dot {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: -10px;
+    left: 25px;
+
+    color: #17AD4B;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 22px;
+
+
+}
+
+.filter-icon {
+    height: 36px;
+    width: 36px;
+    background: #EC9324 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#filter {
+    height: 17.42px;
+    width: 15.92;
 }
 
 
 
+#togglebar {
+    height: 36px;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-right: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 18px;
+}
+
+#menu-option {
+    height: 13.5px;
+    width: 17.71px;
+    color: #252B3B;
+    margin-right: 20px;
+}
+
+
+.grid-icon {
+    height: 36px;
+    width: 37px;
+    background-color: #EC9324;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+
+
+.profile {
+    height: 48px;
+    width: 183px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    gap: 20px;
+    border-radius: 24px;
+    
+}
+
+.profile-icon {
+    width: 44px;
+    height: 44px;
+    background: #F5F4F4 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+
+#vijay {
+    height: 19px;
+    width: 80px;
+    font-size: 14px;
+}
+
+#down-icon {
+    color: #252B3B; 
+    margin-right: 10px;
+    
+    
+}
 
 
   /* table */
