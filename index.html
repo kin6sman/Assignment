@@ -18,7 +18,7 @@
                     </div>
                 </div>
                 <div class="sidebar">
-                    <div class="sidebar-item">Manage
+                    <div class="sidebar-heading"><p>Manage</p>  <i class="fa-solid fa-caret-down" id="down-icon"></i></div>
                       <div class="submenu">
                         <div class="sidebar-item">Moderate</div>
                         <div class="sidebar-item">Tag</div>
@@ -26,21 +26,31 @@
                         <div class="sidebar-item">Payments</div>
                         <div class="sidebar-item">Advance Settings</div>
                       </div>
-                    </div>
-                    <div class="sidebar-item">Menu 2
+
+                    
+                    <div class="sidebar-heading"><p>Users</p> <i class="fa-solid fa-caret-down" id="down-icon"></i></div>
                       <div class="submenu">
-                        <div class="sidebar-item">Submenu 1</div>
-                        <div class="sidebar-item">Submenu 2</div>
-                        <div class="sidebar-item">Submenu 3</div>
+                        <div class="sidebar-item">Admin</div>
+                        <div class="sidebar-item">Client</div>
+                        <div class="sidebar-item">Contact</div>
                       </div>
-                    </div>
-                    <div class="sidebar-item">Menu 3
+                    
+                    
+                        <div class="sidebar-heading"><p>Engagements</p> <i class="fa-solid fa-caret-down" id="down-icon"></i></div>
                       <div class="submenu">
-                        <div class="sidebar-item">Submenu 1</div>
-                        <div class="sidebar-item">Submenu 2</div>
-                        <div class="sidebar-item">Submenu 3</div>
+                        <div class="sidebar-item" id="menu-selected">Projects</div>
+                        <div class="sidebar-item">Calls</div>
+                        <div class="sidebar-item">Calender</div>
                       </div>
-                    </div>
+                    
+                    
+                    <div class="sidebar-heading"><p>Experts</p> <i class="fa-solid fa-caret-down" id="down-icon"></i></div>
+                      <div class="submenu">
+                        <div class="sidebar-item">Expert Search</div>
+                        <div class="sidebar-item">Value Chain</div>
+                        <div class="sidebar-item">Calender</div>
+                      </div>
+                    
                   </div>
                 
             </div>
@@ -78,99 +88,84 @@
                         </div>
                     </div>
                 </div>
-                <div class="body-container">
-                    <table>
-                        <tr>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Exper ID</th>
-                            <th>Current Designation</th>
-                            <th>Current Company</th>
-                            <th>Status</th>
-                            <th>Action</th>
-                        </tr>
-                        <tr>
-                            <td>Peter</td>
-                            <td>Griffin</td>
-                            <td>$100</td>
-                            <td>$100</td>
-                            <td>$100</td>
-                            <td>$100</td>
-                            <td>$100</td>
-                        </tr>
-                        <tr>
-                            <td>Lois</td>
-                            <td>Griffin</td>
-                            <td>$150</td>
-                            <td>$150</td>
-                            <td>$150</td>
-                            <td>$150</td>
-                            <td>$150</td>
-                        </tr>
-                        <tr>
-                            <td>Joe</td>
-                            <td>Swanson</td>
-                            <td>$300</td>
-                            <td>$300</td>
-                            <td>$300</td>
-                            <td>$300</td>
-                            <td>$300</td>
-                        </tr>
-                        <tr>                          
-                            <td>Cleveland</td>
-                            <td>Brown</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                        </tr>
-                        <tr>                          
-                            <td>Cleveland</td>
-                            <td>Brown</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                        </tr>
-                        <tr>                          
-                            <td>Cleveland</td>
-                            <td>Brown</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                        </tr>
-                        <tr>                          
-                            <td>Cleveland</td>
-                            <td>Brown</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                        </tr>
-                        <tr>                          
-                            <td>Cleveland</td>
-                            <td>Brown</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                        </tr>
-                        <tr>                          
-                            <td>Cleveland</td>
-                            <td>Brown</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                            <td>$250</td>
-                        </tr>
-                        </table>
+                <div class="full-content">
+                    <div class="body-container">
+                        <table>
+                            <tr>
+                                <th><input type="checkbox" class="checkbox">Name</th>
+                                <th>Email</th>
+                                <th>Exper ID</th>
+                                <th>Current Designation</th>
+                                <th>Current Company</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" class="checkbox">Mir Azahar</td>
+                                <td>Mir Azahar@gmail.com</td>
+                                <td>536748</td>
+                                <td>UI UX Designer</td>
+                                <td>Inffolian</td>
+                                <td>$100</td>
+                                <td>$100</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" class="checkbox">Mr Debaprasad Sinha</td>
+                                <td>Vinayverma@gmail.com</td>
+                                <td>536748</td>
+                                <td>UI UX Designer</td>
+                                <td>Inffolian</td>
+                                <td>$150</td>
+                                <td>$150</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" class="checkbox">Mr Anmol Kulkrani</td>
+                                <td>Vinayverma@gmail.com</td>
+                                <td>536748</td>
+                                <td>UI UX Designer</td>
+                                <td>Inffolian</td>
+                                <td>$300</td>
+                                <td>$300</td>
+                            </tr>
+                            <tr>                          
+                                <td><input type="checkbox" class="checkbox">Mr Anmol Kulkrani</td>
+                                <td>Vinayverma@gmail.com</td>
+                                <td>536748</td>
+                                <td>UI UX Designer</td>
+                                <td>Inffolian</td>
+                                <td>$250</td>
+                                <td>$250</td>
+                            </tr>
+                            <tr>                          
+                                <td><input type="checkbox" class="checkbox">Mr Debaprasad Sinha</td>
+                                <td>Vinayverma@gmail.com</td>
+                                <td>536748</td>
+                                <td>UI UX Designer</td>
+                                <td>Inffolian</td>
+                                <td>$250</td>
+                                <td>$250</td>
+                            </tr>
+                            <tr>                          
+                                <td><input type="checkbox" class="checkbox">Mr Anmol Kulkrani</td>
+                                <td>Vinayverma@gmail.com</td>
+                                <td>536748</td>
+                                <td>UI UX Designer</td>
+                                <td>Inffolian</td>
+                                <td>$250</td>
+                                <td>$250</td>
+                            </tr>
+                            <tr>                          
+                                <td><input type="checkbox" class="checkbox">Mr Amol Kulkrani</td>
+                                <td>Vinayverma@gmail.com</td>
+                                <td>536748</td>
+                                <td>UI UX Designer</td>
+                                <td>Inffolian</td>
+                                <td>$250</td>
+                                <td>$250</td>
+                            </tr>
+                            
+                            </table>
+                    </div>
                 </div>
             </div>
         </div>
