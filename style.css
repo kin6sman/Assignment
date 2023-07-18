@@ -332,3 +332,77 @@ th {
     border-collapse: collapse;
     width: 100%;
   }
+
+
+  .status-box {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(107, 87, 115, 0.11) 0% 0% no-repeat padding-box;
+    border-radius: 38px;
+    /* opacity: 0.11; */
+
+  }
+
+  .action {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: start;
+    flex-grow: 0;
+  }
+
+  .action-box {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(107, 87, 115, 0.11) 0% 0% no-repeat padding-box;
+    border-radius: 38px;
+  }
+
+
+  /* Action tab */
+
+  .log {
+    background: #EC9324 0% 0% no-repeat padding-box;
+    border-radius: 38px;
+    color: #fff;
+    width: 95px;
+  }
+
+  .share {
+    background: #9F8C8A 0% 0% no-repeat padding-box;
+    border-radius: 38px;
+    color: #fff;
+    width: 208px;
+  }
+
+  .invite {
+    background: #9F8C8A 0% 0% no-repeat padding-box;
+    border-radius: 38px;
+    color: #fff;
+    width: 114px;
+  }
+
+  .shortlist {
+    background: #797B3A 0% 0% no-repeat padding-box;
+    border-radius: 38px;
+    color: #fff;
+    width: 97px;
+  }
+
+  .rejected {
+    background: #EC6224 0% 0% no-repeat padding-box;
+border-radius: 38px;
+color: #fff;
+width: 116px;
+  }
+
+  .call {
+    background: #6371BF 0% 0% no-repeat padding-box;
+border-radius: 38px;
+color: #fff;
+width: 133px;
+  }
